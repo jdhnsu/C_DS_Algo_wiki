@@ -36,6 +36,8 @@
   }
   ```
   简单理解上述的例子就可以发现一个很大的问题,就是一旦top到达数组的边界,就无法继续使用该栈了.那么我们在程序初期的数组的大小设定成为了影响灵活性的关键设定.之前提到过`链表`相较于`数组`的优势中提到过**动态扩展**这一个特性,那么我们就可以通过`链表`来设计一个可以动态拓展的`栈`.
+  ### 动画演示
+  ![动画演示](img\stack\stack.gif)
   ### 代码查看
   [linked_list_stack.h](https://github.com/jdhnsu/C_DS_Algo/blob/main_jdh/linked_list_stack.h)
   [linked_list_stack.c](https://github.com/jdhnsu/C_DS_Algo/blob/main_jdh/linked_list_stack.c)
